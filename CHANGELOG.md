@@ -1,6 +1,11 @@
 Changelog for the Metabolize fork
 =================================
 
+## 0.67.5-post.3 (Jul 14, 2018)
+
+- Support Python 3 or Python 2
+
+
 ## 0.67.5-post.2 (Jul 14, 2018)
 
 Identical to previous.
