@@ -18,13 +18,13 @@ def get_version():
     namespace = run_path('chumpy/version.py')
     return namespace['version']
 
-setup(name='chumpy',
+setup(name='metabochumpy',
     version=get_version(),
     packages = ['chumpy'],
     author='Matthew Loper',
     author_email='matt.loper@gmail.com',
-    url='https://github.com/mattloper/chumpy',
-    description='chumpy',
+    url='https://github.com/metabolize/chumpy',
+    description="Active fork of Matt Loper's autodifferentiation framework",
     license='MIT',
     install_requires=install_requires,
 
@@ -52,4 +52,3 @@ setup(name='chumpy',
         'Operating System :: POSIX :: Linux'
     ],
 )
-
